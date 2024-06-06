@@ -1,0 +1,338 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 15%);
+    --text-color: hsl(228, 12%, 48%);
+    --submit-background: #FFA587;
+    --font-weight-bold: 700;
+    --heading-font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--background)
+}
+
+#header-img {
+    width: 70px;
+    object-fit: contain;
+}
+
+
+/* Logo */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+/* "Nathan's Boxing Gym" */
+.product {
+    font-size: 30px;
+    margin-left: 9px;
+    font-weight: 700;
+    font-family: 'TradeGothicLTStd-Bold', sans-serif;
+}
+
+/* Nav-bar */
+#nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--white);
+    padding: 10px;
+    align-items: center;
+    z-index: 1;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 0px 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-link:hover {
+    color: var(--black);
+}
+
+/* Email section */
+#email-section {
+    margin-top: 120px;
+    text-align: center;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5d27f662dd7b3c000158a331/1636052211546-T3F7HKYL1CU24M6HP3MJ/header_m.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -50px;
+    padding: 50px 0px 500px 0px;
+
+}
+
+#email-section h2 {
+    font-family: "Antonio", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    margin-bottom: 6px;
+    width: auto;
+    height: auto;
+}
+
+#submit {
+    border-radius: 5px;
+    padding: 10px;
+    border-color: 1px solid #fff;
+    color: var(--white);
+    background-color: transparent;
+    margin-left: 10px;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: var(--submit-background);
+}
+
+#email {
+    border-radius: 6px;
+    padding: 10px;
+    border: 1px solid var(--black)
+}
+
+/* Features */
+#features {
+   text-align: center;
+   max-width: 800px;
+   margin: auto;
+   margin-top: 300px;
+   scale: 1.5;
+   border-style: solid;
+   border-width: 5px;
+   border-radius: 5px;
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Boxing Clip */
+.boxing_clip {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 500px;
+  margin-top: 500px;
+  scale: 1.5;
+   
+}
+iframe {
+    border: none;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+/* Icons */
+
+i,#features h2 {
+    margin-right: 10px;
+}
+/* Products */
+#products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.product1 {
+    background-image: url(https://c.stocksy.com/a/qSFJ00/z9/4587680.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 50px 0px 400px 0px;
+    color: var(--white);
+    font-family: 'Antonio', sans-serif;
+    text-align: center;
+}
+
+
+#submit1 {
+    border-radius: 5px;
+    background-color: var(--white);
+    color: black;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    font-family: 'Antonio', sans-serif;
+    font-weight: var(--font-weight-bold);
+    font-style: var(--heading-font-style);
+    letter-spacing: 0.01em;
+    text-align: center;
+    font-size: 14px;
+    padding: 12px 20px 14px 20px;
+}
+
+#submit1:hover {
+    cursor: pointer;
+    background-color: var(--submit-background);
+    color: white;
+}
+
+.product2 {
+    font-family: 'Antonio', sans-serif;
+    color: var(--white);
+    background-image: url(https://cdn.evolve-university.com/wp-content/uploads/2021/11/mt-heavy-bag-drill-nong-o.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0px 400px 0px;
+    text-align: center;
+}
+
+#submit2 {
+    border-radius: 5px;
+    background-color: var(--white);
+    color: black;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    font-family: 'Antonio', sans-serif;
+    font-weight: var(--font-weight-bold);
+    font-style: var(--heading-font-style);
+    letter-spacing: 0.01em;
+    text-align: center;
+    font-size: 14px;
+    padding: 12px 20px 14px 20px;
+}
+
+#submit2:hover {
+    cursor: pointer;
+    background-color: var(--submit-background);
+    color: white;
+}
+
+.product3 {
+    font-family: 'Antonio', sans-serif;
+    color: var(--white);
+    background-image: url(https://i5.walmartimages.com/asr/b120ab7f-2e56-4e19-879f-fd72e9b0acd0.0e99f87f3695ebdeca00deddab0ea341.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    padding: 50px 0px 400px 0px;
+    text-align: center;
+}
+
+#submit3 {
+    border-radius: 5px;
+    background-color: var(--white);
+    color: black;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    font-family: 'Antonio', sans-serif;
+    font-weight: var(--font-weight-bold);
+    font-style: var(--heading-font-style);
+    letter-spacing: 0.01em;
+    text-align: center;
+    font-size: 14px;
+    padding: 12px 20px 14px 20px;
+}
+
+#submit3:hover {
+    cursor: pointer;
+    background-color: var(--submit-background);
+    color: white;
+}
+
+/* Text-Alignment (For bigger Sizes) */
+
+.text-alignmentONE {
+    scale: 1.5;
+}
+
+.text-alignmentTWO {
+    scale: 1.5;
+}
+
+footer {
+    display: block;
+    text-align: right;
+}
+
+footer a {
+    text-decoration: none;
+    list-style: none;
+    color: var(--black);
+    font-family: 'Inter', sans-serif;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .boxing_clip {
+        scale: 1;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1230px) {
+    
+    #features {
+        scale: 1;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+
+    #products {
+        scale: 0.9;
+    }
+
+    .text-alignmentTWO {
+        scale: 1;
+    }
+    
+    .nav-links {
+        display: normal;
+    }
+
+    .product {
+        display: normal;
+        margin-right: 15px;
+    }
+
+    .product3 {
+        background-position-x: -115px;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+
+    .text-alignmentONE {
+        scale: 1;
+    }
+
+    #email-section {
+        background-position-x: -350px;
+    }
+}
